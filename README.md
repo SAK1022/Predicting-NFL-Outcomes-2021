@@ -1,2 +1,5 @@
 # Predicting NFL Outcomes 2021
  NFL teams were assigned a score based on significant variables. This function predicts the winner of a game two inputted teams.
+Data Sources: ProFootballReference and {Overthecap.com, Jason Fitzgerald. Snaps Gained and Lost in 2021. 15 Apr. 2021, overthecap.com/net-snaps-gained-and-lost-in-2021/.}
+
+Full Variable Names: Points Per Game For, Points Per Game Against, Yards Total For, Yards Total Against, Offensive Plays, Defensive Plays, Offensive Yards per Play, Offensive Turnovers (More is Bad), Defensive Turnovers (More is Good), First Downs For, Completion Percentage For, Completion Percentage Against, Passing Yards For, Passing Yards Against, Passing Touchdowns For, Passing Touchdowns Against, Rushing Touchdowns For, Offensive Rush Yards per Attempt (Higher is Good), Defensive Rush Yards per Attempt (Lower is Good), Penalties Bad (Against Your Team), Defensive Scoring Percentage (Lower is Good), Winning Percentage Based on Model (=fitted.values(BigModel)*1/16), Opposite Strength of Schedule (=1-Strength of Schedule), Offensive Snaps Retained, Defensive Snaps Retained 
